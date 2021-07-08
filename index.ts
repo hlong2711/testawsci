@@ -2,7 +2,7 @@ import express from "express";
 
 const app = express();
 
-app.get('/graphql', (req, res) => {
+app.get('/', (req, res) => {
     res.send('Hello world from example-service: version 1\n');
 })
 const PORT = 3000;
